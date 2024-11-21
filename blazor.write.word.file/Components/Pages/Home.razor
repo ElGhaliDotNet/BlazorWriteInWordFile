@@ -1,0 +1,28 @@
+﻿@page "/"
+@inject blazor.write.word.file.Services.WordService wordService
+@inject IJSRuntime js
+@rendermode InteractiveServer
+<PageTitle>Home</PageTitle>
+
+<button class="btn btn-primary" @onclick="DownloadWordFile">Download Word File</button>
+<button class="btn btn-primary" @onclick="DownloadWordTable">Download Word Table</button>
+
+
+@code {
+    private async Task DownloadWordFile(){
+        var bytes = wordService.CreateWordFile("Visual Studio a une fonctionnalité appelée Accéder à tout que vous pouvez utiliser pour accéder rapidement à n’importe quel fichier, type, membre ou déclaration de symbole. Pour l’ouvrir à partir de la barre de menus, sélectionnez");
+        var fileName = "sample.docx";
+        var base64 = Convert.ToBase64String(bytes);
+        await js.InvokeVoidAsync("BlazorDownloadFile", fileName, "application/vnd.openxmlformats-officedocument.wordprocessingml.document", base64);
+
+    }
+
+    private async Task DownloadWordTable()
+    {
+        var bytes = wordService.CreateWordTable();
+        var fileName = "sample.docx";
+        var base64 = Convert.ToBase64String(bytes);
+        await js.InvokeVoidAsync("BlazorDownloadFile", fileName, "application/vnd.openxmlformats-officedocument.wordprocessingml.document", base64);
+
+    }
+}

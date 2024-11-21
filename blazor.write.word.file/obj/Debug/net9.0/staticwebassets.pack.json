@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\blazor.write.word.file\\blazor.write.word.file\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\blazor.write.word.file.bundle.scp.css",
+      "PackagePath": "staticwebassets\\blazor.write.word.file.avzjoty1dz.bundle.scp.css"
+    },
+    {
+      "Id": "F:\\blazor.write.word.file\\blazor.write.word.file\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.blazor.write.word.file.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.blazor.write.word.file.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.blazor.write.word.file.props",
+      "PackagePath": "build\\blazor.write.word.file.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.blazor.write.word.file.props",
+      "PackagePath": "buildMultiTargeting\\blazor.write.word.file.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.blazor.write.word.file.props",
+      "PackagePath": "buildTransitive\\blazor.write.word.file.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,2 @@
+F:\blazor.write.word.file\blazor.write.word.file\wwwroot\app.css
+wwwroot\app.css

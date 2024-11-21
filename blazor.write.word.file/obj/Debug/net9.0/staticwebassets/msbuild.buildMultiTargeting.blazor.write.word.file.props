@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\blazor.write.word.file.props" />
+</Project>
